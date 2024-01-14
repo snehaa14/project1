@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stulogin.css">
+    <title>Admin Login</title>
+    <style>
+    
+    </style>
+</head>
+<body>
+    <section id="contact-box">
+
+        <div class="alignment">
+            <table cellpadding="5" cellspacing="2" width="200">
+                <tr>
+                 <td>
+        <a href="stulogin.html"><button class="buttonstyling">Student</button></a>
+          </td><td>
+        <a href="adminlogin.html"><button class="buttonstyling"><b>Admin</b></button></a>
+         </td>  
+         <td>&nbsp;</td>
+         </tr>  
+        <td colspan="3">
+            <h2 id="admin-login">Admin Login</h2><br>
+            <div>
+                <label for="Hostel">Select Hostel</label>
+                <select name="Hostel">
+                    <option selected>--Select Hostel--</option>
+                    <option>Tagore</option>
+                    <option>Raman</option>
+                    <option>IHB</option>
+                    <option>SVBH</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="desig">Login as</label>
+                <select name="desig" >
+                    <option selected>--Select--</option>
+                    <option>Chief Warden</option>
+                    <option>Mess President</option>
+                    <option>Accountant</option>
+                </select>
+            </div><br>
+        <div>
+        <label for="user">Enter Email(Gsuite)</label><br>
+        <input type="email" name="user" id="uid" required placeholder="Enter your Email" autofocus>
+        </div><br>
+        <div>
+            <label for="pass">Enter Password</label><br>
+            <input type="password" name="pass" placeholder="Enter Password" id="password" required>
+            </div>  
+    
+    </div><br><div><a href="#">Forgot Password?</div><br>
+    <div>
+        <a href="##"><button class="logbutton" class="log">Log in</button></a>
+    </div><br>
+    </section>
+</body>
+</html>
